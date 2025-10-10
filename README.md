@@ -1,12 +1,10 @@
-<img src="./assets/banner.svg" alt="purple gradient banner" width="100%" />
 
-<h1 align="center">hi, i'm nat 👋</h1>
+<h1 align="center">hi, i'm nat </h1>
 <p align="center">systems/backends • ML workflows • thoughtful UI • cats & keyboards</p>
 
 <p align="center">
-  <a href="mailto:YOUR@EMAIL">Email</a> ·
-  <a href="https://www.linkedin.com/in/YOURHANDLE">LinkedIn</a> ·
-  <a href="https://YOUR.SITE">Website</a>
+  <a href="mailto:nh2804@columbia.edu">Email</a> ·
+  <a href="https://www.linkedin.com/in/natalie-hughes-aa747a222/">LinkedIn</a> 
 </p>
 
 ### Spotlight
