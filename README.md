@@ -1,6 +1,6 @@
 
 <h1 align="center">hi, i'm nat </h1>
-<p align="center">systems/backends • ML workflows • thoughtful UI • cats & keyboards</p>
+<p align="center">systems/backends • ML workflows • UI Design • cats & keyboards</p>
 
 <p align="center">
   <a href="mailto:nh2804@columbia.edu">Email</a> ·
