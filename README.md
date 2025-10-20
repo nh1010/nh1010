@@ -8,10 +8,12 @@
 </p>
 
 ### Spotlight
+- **NYC Cat Tracker** *(in progress)* — interactive Mapbox app visualizing cat spottings across NYC. [[repo]](https://github.com/nh1010/NYC-Cat-Tracker)
 - **Research Citation DApp** — DID + citation-based rewards for researchers. [[repo]](https://github.com/nh1010/Blockchain-Project)
 - **Hospital Readmission Risk** — notebook baseline; add metrics + ROC/AUC screenshot. [[repo]](https://github.com/nh1010/Hospital-Readmission-Risk-)
 - **Distributed Systems (Go)** — lab implementations; add short bullets per lab. [[repo]](https://github.com/nh1010/Distributed-Systems)
 - **Bomberman (Verilog)** — FPGA game logic; embed GIF or schematic. [[repo]](https://github.com/nh1010/Bomberman-)
+- 
 
 ### Tech
 `python` · `go` · `typescript` · `react` · `postgres` · `docker` · `solidity`
