@@ -8,7 +8,7 @@
 </p>
 
 ### Spotlight
-- **NYC Cat Tracker** *(in progress)* — interactive Mapbox app visualizing cat spottings across NYC. [[repo]](https://github.com/nh1010/NYC-Cat-Tracker)
+- **NYC Cat Tracker** *(in progress)* — interactive Mapbox app visualizing cat spottings across NYC. [[frontend]](https://github.com/nh1010/cat-frontend) · [[backend]](https://github.com/nh1010/cat-backend)
 - **Research Citation DApp** — DID + citation-based rewards for researchers. [[repo]](https://github.com/nh1010/Blockchain-Project)
 - **Hospital Readmission Risk** — notebook baseline; add metrics + ROC/AUC screenshot. [[repo]](https://github.com/nh1010/Hospital-Readmission-Risk-)
 - **Distributed Systems (Go)** — lab implementations; add short bullets per lab. [[repo]](https://github.com/nh1010/Distributed-Systems)
