@@ -1,22 +1,14 @@
 <!-- ——— HERO ——— -->
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Nat — systems/backends • ML workflows • UI design • cats & keyboards" />
+  <img src="./assets/banner-compact.svg" width="64%" alt="systems/backends • ML workflows • full-stack • cats & keyboards" />
 </p>
 
 <h1 align="center">hi, i'm nat</h1>
-<p align="center"><b>systems/backends</b> • <b>ML workflows</b> • <b>UI design</b> • cats & keyboards</p>
 
 <p align="center">
   <a href="mailto:nh2804@columbia.edu">Email</a> ·
   <a href="https://www.linkedin.com/in/natalie-hughes-aa747a222/">LinkedIn</a> ·
   <a href="https://github.com/nh1010?tab=repositories">Repos</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/nh1010?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/nh1010?style=flat-square&label=Followers"></a>
-  <a href="https://github.com/nh1010"><img alt="Stars" src="https://img.shields.io/github/stars/nh1010?style=flat-square&label=Stars"></a>
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-NYC%20Cat%20Tracker-8b5cf6?style=flat-square">
-  <img alt="Stack" src="https://img.shields.io/badge/Stack-Python%20·%20Go%20·%20TS%20·%20Postgres%20·%20Docker-7c3aed?style=flat-square&labelColor=111827">
 </p>
 
 ---

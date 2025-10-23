@@ -1,29 +1,53 @@
 <svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- soft shadow -->
     <filter id="soft" x="-20%" y="-30%" width="140%" height="160%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
       <feOffset dx="0" dy="6" result="offset"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.35 0"/>
       <feMerge>
-        <feMergeNode in="offset"/>
+        <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <style>
+      .cardtext { font: 600 20px/1.1 "Inter", ui-sans-serif, system-ui; fill:#1b1b24; letter-spacing:.2px; }
+      .bg { fill:#0b0b12; }
+      .card { rx:24; filter:url(#soft); }
+      .stroke { fill:none; stroke-width:1; opacity:.55; }
+    </style>
   </defs>
 
-  <!-- background -->
-  <rect width="1000" height="260" fill="#0b0b12"/>
+  <!-- background panel with gentle inset padding -->
+  <rect class="bg" width="1000" height="260"/>
+  <g transform="translate(48,38)">
+    <!-- unified spacing: 4 cards, 200x160, 24px radius, 36px gutters -->
+    <!-- systems/backends -->
+    <g transform="translate(0,0)">
+      <rect class="card" width="200" height="160" fill="#e9d5ff"/>
+      <rect class="stroke" width="200" height="160" rx="24" stroke="#e6d0ff"/>
+      <text class="cardtext" x="100" y="92" text-anchor="middle">systems/backends</text>
+    </g>
 
-  <!-- pastel blocks -->
-  <g font-family="Inter, ui-sans-serif, system-ui" font-weight="600" font-size="20" fill="#0b0b12">
-    <rect x="70"  y="50" width="200" height="160" rx="28" fill="#e9d5ff" filter="url(#soft)"/>
-    <rect x="290" y="50" width="200" height="160" rx="28" fill="#c7d2fe" filter="url(#soft)"/>
-    <rect x="510" y="50" width="200" height="160" rx="28" fill="#fde68a" filter="url(#soft)"/>
-    <rect x="730" y="50" width="200" height="160" rx="28" fill="#bbf7d0" filter="url(#soft)"/>
+    <!-- ML workflows -->
+    <g transform="translate(236,0)">
+      <rect class="card" width="200" height="160" fill="#c7d2fe"/>
+      <rect class="stroke" width="200" height="160" rx="24" stroke="#c2cdfa"/>
+      <text class="cardtext" x="100" y="92" text-anchor="middle">ML workflows</text>
+    </g>
 
-    <!-- text inside blocks -->
-    <text x="170" y="122" text-anchor="middle">systems/backends</text>
-    <text x="390" y="122" text-anchor="middle">ML workflows</text>
-    <text x="610" y="122" text-anchor="middle">full-stack</text>
-    <text x="830" y="122" text-anchor="middle">cats &amp; keyboards</text>
+    <!-- full-stack -->
+    <g transform="translate(472,0)">
+      <rect class="card" width="200" height="160" fill="#fde68a"/>
+      <rect class="stroke" width="200" height="160" rx="24" stroke="#f8df7e"/>
+      <text class="cardtext" x="100" y="92" text-anchor="middle">full-stack</text>
+    </g>
+
+    <!-- cats & keyboards -->
+    <g transform="translate(708,0)">
+      <rect class="card" width="200" height="160" fill="#bbf7d0"/>
+      <rect class="stroke" width="200" height="160" rx="24" stroke="#b1efc7"/>
+      <text class="cardtext" x="100" y="92" text-anchor="middle">cats &amp; keyboards</text>
+    </g>
   </g>
 </svg>
