@@ -45,13 +45,7 @@ Infra: AWS (RDS, S3, IAM), Prisma/Postgres, Cronitor, Docker Compose
 - Tidying **Distributed Systems** notes and lab bullets
 - Converting notebook baselines into reproducible **ML pipelines**
 
-<details>
-<summary><b>Changelog — this week</b></summary>
 
-- cat-backend: add `/spots` pagination + PostGIS index  
-- cat-frontend: fix Mapbox style + borough mask overlay  
-- ML notebook: export ROC/AUC PNG for README  
-</details>
 
 
 
