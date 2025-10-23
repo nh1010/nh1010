@@ -1,6 +1,6 @@
 <!-- ——— HERO ——— -->
 <p align="center">
-  <img src="./assets/banner-compact.svg" width="64%" alt="systems/backends • ML workflows • full-stack • cats & keyboards" />
+  <img src="./assets/banner.svg" width="64%" alt="systems/backends • ML workflows • full-stack • cats & keyboards" />
 </p>
 
 <h1 align="center">hi, i'm nat</h1>
