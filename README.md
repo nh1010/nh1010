@@ -85,9 +85,5 @@ Infra: AWS (RDS, S3, IAM), Prisma/Postgres, Cronitor, Docker Compose
 - ML notebook: export ROC/AUC PNG for README  
 </details>
 
----
 
-### Contact
-If you’re building crisp backends, pretty maps, or weird ML tools, say hi:  
-**nh2804@columbia.edu**
 
